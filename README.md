@@ -4,7 +4,7 @@ A public-facing home for carefully scoped computational research, reproducible v
 
 ## Status
 
-**Four supporting research packages are now available.** The full manuscripts are in preparation. This repository is not a claim to have proved the Riemann hypothesis (RH), generalized RH, or any other open problem.
+**Five supporting research packages are now available.** The full manuscripts are in preparation. This repository is not a claim to have proved the Riemann hypothesis (RH), generalized RH, or any other open problem.
 
 This public repository is **separate from the private internal research workspace**. It has its own history and will contain only separately reviewed, explicitly approved public release packages. Unpublished notes, internal evidence archives, raw session logs, credentials, and private repository history are not mirrored.
 
@@ -16,8 +16,9 @@ This public repository is **separate from the private internal research workspac
 | [Boundary-jet and affine connection formulas](releases/a30-legendre-boundary-jet/) | Exact finite Legendre integral identities and prior-art discussion | Classical formulas; no claim of numerical superiority or general novelty. |
 | [Odd-sector symmetric-kernel bound](releases/a33-odd-kernel-bound/) | Analytic premises and two exact rational Python checkers | Upper bounds below 0.119 (endpoint estimate) and 0.101 (16-cell partition) for the same kernel and odd subspace; not an optimal norm or external peer-reviewed result. |
 | [Conditional finite-rank inertia margins](releases/a15-conditional-inertia/) | Classical min-max implication and rational margin check | Conditional 549-dimensional instance; complete matrix premises not independently reproduced. |
+| [Weighted variance and prime-bin estimates](releases/a16-a17-weighted-variance/) | Exact block identity and conditional chosen-center Stieltjes estimate | Continuous reference bound for harmonic bins; discrepancy and higher-prime-power terms and full all-parameter result not certified here. |
 
-Further material is in preparation on full finite-rank certificate reconstruction and weighted-variance inequalities. These are research directions, not announcements of completed or accepted papers. Releases are selective and may be revised as independent checks and literature comparisons proceed.
+Further material is in preparation on full finite-rank certificate reconstruction, weighted-variance discrepancy bounds, and parameter-family operator certificates. These are research directions, not announcements of completed or accepted papers. Releases are selective and may be revised as independent checks and literature comparisons proceed.
 
 ## What to expect
 
@@ -28,7 +29,7 @@ Further material is in preparation on full finite-rank certificate reconstructio
 
 ## Evidence and claim policy
 
-A published research package must identify its source version and digest, dependencies, exact reproducer, expected output, evidence limitations, attribution, relevant licenses, and an explicit claim ceiling. A finite experiment never implies a global theorem by itself. A green Lean build is not automatically a mathematical review or evidence of RH.
+A published research package must identify its source version and digest (see the [release digest inventory](SHA256SUMS)), dependencies, exact reproducer, expected output, evidence limitations, attribution, relevant licenses, and an explicit claim ceiling. A finite experiment never implies a global theorem by itself. A green Lean build is not automatically a mathematical review or evidence of RH.
 
 **All RH/GRH claims remain unproven within this repository unless a specific, independently checkable argument is actually published and reviewed.** None of the current packages asserts such a proof.
 
